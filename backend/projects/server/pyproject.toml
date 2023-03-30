@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "dashboard"
+version = "0.1.0"
+description = ""
+authors = ["Vivek Srivastava <developer.viveksrivastava@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Django = "^3.2"
+django-environ = "^0.9.0"
+django-cors-headers = "^3.13.0"
+django-structlog = "^4.0.1"
+mysqlclient = "^2.1.1"
+bcrypt = "^4.0.1"
+django-graphql-auth = "^0.3.16"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.group.dev.dependencies]
+pre-commit = "^3.0.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
